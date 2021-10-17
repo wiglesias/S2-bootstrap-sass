@@ -1,0 +1,19 @@
+{
+  "name": "s2-bootstrap-sass",
+  "version": "1.0.0",
+  "description": "Sprint 2 Bootstrap 5 and Sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiglesias/S2-bootstrap-sass.git"
+  },
+  "author": "Wils Iglesias <wiglesias83@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiglesias/S2-bootstrap-sass/issues"
+  },
+  "homepage": "https://github.com/wiglesias/S2-bootstrap-sass#readme"
+}
