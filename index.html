@@ -4,16 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BookMark</title>
+  <title>Bookmark</title>
   <link rel="icon" type="" href="/assets/favicon-32x32.png" sizes="32x32" type="image/png">
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-md navbar-light pt-5 pb-4">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light pt-5 pb-4 py-3">
+    <div class="container-lg">
       <!-- navbar brand / title -->
-      <a class="navbar-brand" href="/"></a>
+      <a class="navbar-brand" href="#intro"></a>
       <img src="/assets/logo-bookmark.svg" alt="Logo Book Mark">
 
       <!-- toggle button for mobile nav -->
@@ -36,10 +36,30 @@
           <li class="nav-item ms-2 d-none d-md-inline">
             <a class="btn btn-secondary text-white" href="#login">LOGIN</a>
           </li>
-
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- main image and intro text -->
+  <section id="intro">
+    <div class="container-lg">
+      <div class="row g-4 justify-content-center align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <h1 class="display-5">A Simple Bookmark Manager
+            <!-- <div class="display-5">A Simple Bookmark Manager</div> -->
+          </h1>
+          <p class="lead my-4 text-muted">
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free
+          </p>
+          <a class="btn btn-primary btn-lg" href="#">Get on Chrome</a>
+          <a class="btn btn-light btn-lg" href="#">Get on Firefox</a>
+        </div>
+        <div class="col-md-6 text-center d-md-block bg-primary bg-hero">
+          <img class="img-fluid" src="/assets/illustration-hero.svg" alt="Ilustration">
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
