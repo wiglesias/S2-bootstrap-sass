@@ -8,6 +8,7 @@ Contains Level 1 and Level 2:
 * Exercise 2
 * Exercise 3
 * Exercise 4
+* Exercise 5
 
 
 ## Setup
